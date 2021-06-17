@@ -1,0 +1,25 @@
+{
+  "name": "default-nodes",
+  "version": "1.0.0",
+  "description": "some default node servers because i seem to redo these all the time",
+  "main": "index.js",
+  "scripts": {
+    "sync": "browser-sync start --proxy localhost:3000 --files 'public' ",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Britnell/default-nodes.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Britnell/default-nodes/issues"
+  },
+  "homepage": "https://github.com/Britnell/default-nodes#readme",
+  "dependencies": {
+    "browser-sync": "^2.26.14",
+    "express": "^4.17.1"
+  }
+}
